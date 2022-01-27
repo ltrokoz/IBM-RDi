@@ -1,0 +1,30 @@
+000010210217     A*%%TS  SD  20210201  151602  PANGBORN    REL-V7R4M0  5770-WDS
+000020210201     A*%%EC
+000030210201     A                                      DSPSIZ(24 80 *DS3)
+000040210201     A          R RECORD1
+000050210201     A*%%TS  SD  20210201  151602  PANGBORN    REL-V7R4M0  5770-WDS
+000051210216     A                                      CF03(03 'F3 EXIT')
+000052210216     A                                      CF21(21 'F21 COMAND LINE')
+000060210201     A                                  1 38'Lab 4'
+000070210201     A                                  5  3'Please select one of the following-
+000080210201     A                                       options:'
+000090210201     A                                  9 14'3.  Maximum Invalid Signon Attempt-
+000100210201     A                                      s allowed'
+000110210201     A                                 11 14'5.  Operating system level'
+000120210201     A                                  7 14'1.  Signed on User''s Message Queu-
+000130210201     A                                      e'
+000140210201     A                                 15 17'Option:'
+000150210201     A                                 23  4'F3=Exit'
+000160210201     A                                 23 17'F21=Comand Line '
+000170210216     A                                  2  3'LIUBOV TROKOZ'
+000180210201     A                                 10 14'4.  Previous sign on by signed on -
+000190210201     A                                      user'
+000200210201     A                                  8 14'2.  Run Covid Information Applicat-
+000210210201     A                                      ion'
+000211210216     A                                  1 70DATE
+000212210216     A                                      EDTCDE(Y)
+000213210216     A                                  2 70TIME
+000214210217     A            OPTION         2A  B 15 25
+000218210217     A  30                                  DSPATR(RI PC)
+000219210216     A  30                             15 35'INVALID OPTION'
+000220210216     A            MSGTXT        70   O 17  6
