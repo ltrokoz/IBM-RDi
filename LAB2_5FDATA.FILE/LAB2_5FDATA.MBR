@@ -1,0 +1,4 @@
+000001      Current connection is to relational database S10A04C2.                          
+000002      SELECT STUDENTNO, FIRSTNAME, LASTNAME, BIRTHDATE, PHONE, ADDRESS,               
+000003      CITY, PROVINCE, POSTALCODE, FEESOWED, FINESOWED FROM students                   
+000004      SELECT statement run complete.                                                  

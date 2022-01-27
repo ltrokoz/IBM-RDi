@@ -1,0 +1,48 @@
+000001210419     A          R FINDEMP
+000002210417     A                                  1 22'E m p l o y e e  I n f o r m a t i-
+000003210417     A                                       o n'
+000004210417     A                                  1 72DATE
+000005210417     A                                      EDTCDE(Y)
+000006210417     A                                  2  2'Liubov Trokoz'
+000007210417     A                                  3  3'Enter Employee Number:'
+000008210417     A            EMPNUMINP      9   B  3 26
+000009210417     A                                  1  2USER
+000010210417     A            MESSAGE       37X  O  3 42
+000011210417     A          R EMPDATA                   OVERLAY
+000012210417     A                                      CF03(03 'Exit Program')
+000013210417     A                                      CF06(06 'Update Employee Record')
+000014210417     A                                  5 27'Employee Data'
+000015210417     A                                  7  3'First Name:'
+000016210417     A                                  8  3'Last Name:'
+000017210417     A                                  9  3'Phone:'
+000018210417     A                                  8 49'City:'
+000019210417     A                                  9 49'Address:'
+000020210417     A                                 11  3'Year To Date Pay:'
+000021210417     A                                 13 25'Last Shift Worked'
+000022210417     A                                 15  3'Shift:'
+000023210417     A                                 16  3'Hours Worked:'
+000024210417     A                                 17  3'Pay Grade:'
+000025210417     A                                 15 45'Regular Pay:'
+000026210417     A                                 16 45'Overtime Pay:'
+000027210417     A                                 17 45'Shift Pay:'
+000028210417     A                                 20  4'F3 - Exit'
+000029210417     A                                 20 22'F6 - Update Employee Record'
+000030210417     A            FIRSTNAME     20   O  7 19
+000031210417     A            LASTNAME      20   O  8 19
+000032210417     A            PHONE         14   O  9 19
+000033210417     A            CITY           9   B  8 59
+000034210417     A            ADDRESS        9   B  9 59
+000035210417     A            WORKSHIFT      9   O 15 18
+000036210417     A            HRSWORKED      2N 0O 16 18
+000037210419     A            PAYCLASS       1N 0B 17 18
+000038210417     A            TOTREGPAY      9  2O 15 61EDTCDE(1)
+000039210417     A            TOTOVTPAY      9  2O 16 61EDTCDE(1)
+000040210417     A            TOTWKPAY       9  2O 17 61EDTCDE(1)
+000100      
+000101210419     A*%%RS+<record-sequences>
+000102210419     A*%%RS+ <sequence name="Untitled">
+000103210419     A*%%RS+  <device type="display" width="80" height="24" />
+000104210419     A*%%RS+  <record-write record-format="FINDEMP" />
+000105210419     A*%%RS+  <record-write record-format="EMPDATA" />
+000106210419     A*%%RS+ </sequence>
+000107210419     A*%%RS </record-sequences>
