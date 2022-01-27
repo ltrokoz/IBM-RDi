@@ -1,0 +1,53 @@
+000001210201     A          R RISKFACTOR
+000002210125     A                                  1 71DATE
+000003210125     A                                      EDTCDE(Y)
+000004210125     A                                  3  3'Liubov Trokoz'
+000005210125     A                                  1 21'C O V I D 1 9   R I S K   F A C T -
+000006210125     A                                      O R S'
+000007210125     A                                  5  4'Birth Date:'
+000008210201     A            BIRTHDATE       L  B  5 16
+000011210125     A                                  5 34'Gender:'
+000012210201     A            GENDER         1A  B  5 43VALUES('M' 'F')
+000013210201     A  95                                  DSPATR(RI PC)
+000015210125     A                                  5 45'M/F'
+000016210125     A  95                              5 52'Gender Must Not Be Blank'
+000017210125     A                                  7  3'Answer the following with Y or N:'
+000018210125     A                                  9  3'Cardiovascular Disease:'
+000019210201     A            CVDISEASE      1A  B  9 27VALUES('Y' 'N')
+000020210201     A  96                                  DSPATR(RI PC)
+000022210125     A                                  9 45'Diabetes:'
+000023210201     A            DIABETES       1A  B  9 56VALUES('Y' 'N')
+000024210201     A  97                                  DSPATR(RI)
+000025210201     A  97                                  DSPATR(PC)
+000027210126
+000028210125     A  96                             10  3'Cardiovascular Must Not Be Blank'
+000029210125     A  97                             10 45'Diabetes Must Not Be Blank'
+000030210125     A                                 12  3'Respiratory Disease:'
+000031210201     A            RSPDISEASE     1A  B 12 27VALUES('Y' 'N')
+000032210201     A  98                                  DSPATR(PC)
+000033210201     A  98                                  DSPATR(RI)
+000035210126
+000036210125     A                                 12 35'High Blood Pressure:'
+000037210201     A            HBPRESSURE     1A  B 12 56VALUES('Y' 'N')
+000038210201     A  99                                  DSPATR(PC)
+000039210201     A  99                                  DSPATR(RI)
+000041210126
+000042210125     A  98                             13  3'Respiratory Must Not Be Blank'
+000043210125     A  99                             13 35'High Blood Pressure Must Not Be Bl-
+000044210125     A                                      ank'
+000045210125     A          R RISKASSMNT                OVERLAY
+000046210125     A                                      CF03(03 'Exit Program')
+000047210126     A                                 16 27'R I S K  A S S E S S M E N T'
+000048210126     A                                 18  6'Age'
+000049210126     A                                 18 12'Fatality Rate'
+000050210126     A                                 18 32'Vacination Recomendation'
+000051210126     A                                 18 64'Total Queries:'
+000052210126     A            AGE            3  0O 20  6EDTCDE(1)
+000053210126     A            FRATE          5  3O 20 14EDTCDE(1)
+000054210126     A                                 20 22'%'
+000055210126     A            TOTALQ         3  0  20 69EDTCDE(1)
+000056210126     A            COHORT         9   O 20 42DSPATR(RI)
+000057210126     A                                 20 34'Cohort:'
+000058210126     A                                 24  9'F1 - Cohort Information'
+000059210126     A                                 24 36'F3 - Exit'
+000100      

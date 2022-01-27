@@ -1,0 +1,22 @@
+000001210228     A          R RECORD1
+000002210228     A                                  2 71DATE
+000003210228     A                                      EDTCDE(Y)
+000004210228     A                                  3 71TIME
+000005210228     A                                  3  3'LIUBOV TROKOZ'
+000006210228     A                                  2 24'S E N E C A    Payroll  Program Co-
+000007210228     A                                      mpleted'
+000008210228     A                                  5  9'Rates:'
+000009210228     A                                  7 21'Day Hours:'
+000010210228     A                                  8 21'Afternoon Hours:'
+000011210228     A                                  9 21'Night Hours:'
+000012210228     A                                 12  9'Totals:'
+000013210228     A                                 13 21'Regular Pay:'
+000014210228     A                                 14 21'Overtime Pay:'
+000015210228     A                                 15 21'Company Payout:'
+000021210302     A            TOTREGPAY      9Y 2O 13 41EDTCDE(1)
+000022210302     A            TOTOVTPAY      9Y 2  14 41EDTCDE(1)
+000023210302     A            TOTWKPAY       9Y 2O 15 40EDTCDE(1 $)
+000024210302     A            DAYHRS         5Y 2O  7 41EDTCDE(1)
+000025210302     A            AFTHRS         5Y 2   8 41EDTCDE(1)
+000026210302     A            NIGHTHRS       5Y 2   9 41EDTCDE(1)
+000100      

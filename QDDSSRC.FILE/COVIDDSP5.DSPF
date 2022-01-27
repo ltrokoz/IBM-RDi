@@ -1,0 +1,59 @@
+000100210201     A          R RISKFACTOR
+000200210125     A                                  1 71DATE
+000300210125     A                                      EDTCDE(Y)
+000400210125     A                                  3  3'Liubov Trokoz'
+000500210125     A                                  1 21'C O V I D 1 9   R I S K   F A C T -
+000600210125     A                                      O R S'
+000700210125     A                                  5  4'Birth Date:'
+000800210205     A            BIRTHDATE       L  B  5 16
+000801210205     A  60                                  DSPATR(PR)
+000900210125     A                                  5 34'Gender:'
+001000210201     A            GENDER         1A  B  5 43VALUES('M' 'F')
+001100210201     A  95                                  DSPATR(RI PC)
+001200210205     A  60                                  DSPATR(PR)
+001300210125     A                                  5 45'M/F'
+001400210125     A  95                              5 52'Gender Must Not Be Blank'
+001500210125     A                                  7  3'Answer the following with Y or N:'
+001600210125     A                                  9  3'Cardiovascular Disease:'
+001700210201     A            CVDISEASE      1A  B  9 27VALUES('Y' 'N')
+001701210205     A  96                                  DSPATR(RI PC)
+001702210205     A  60                                  DSPATR(PR)
+001900210125     A                                  9 45'Diabetes:'
+002000210201     A            DIABETES       1A  B  9 56VALUES('Y' 'N')
+002001210205     A  97                                  DSPATR(RI)
+002002210205     A  97                                  DSPATR(PC)
+002003210205     A  60                                  DSPATR(PR)
+002300210126
+002400210125     A  96                             10  3'Cardiovascular Must Not Be Blank'
+002500210125     A  97                             10 45'Diabetes Must Not Be Blank'
+002600210125     A                                 12  3'Respiratory Disease:'
+002700210201     A            RSPDISEASE     1A  B 12 27VALUES('Y' 'N')
+002701210205     A  98                                  DSPATR(PC)
+002702210205     A  98                                  DSPATR(RI)
+002703210205     A  60                                  DSPATR(PR)
+003000210126
+003100210125     A                                 12 35'High Blood Pressure:'
+003200210201     A            HBPRESSURE     1A  B 12 56VALUES('Y' 'N')
+003201210205     A  99                                  DSPATR(PC)
+003202210205     A  99                                  DSPATR(RI)
+003203210205     A  60                                  DSPATR(PR)
+003500210126
+003600210125     A  98                             13  3'Respiratory Must Not Be Blank'
+003700210125     A  99                             13 35'High Blood Pressure Must Not Be Bl-
+003800210125     A                                      ank'
+003900210125     A          R RISKASSMNT                OVERLAY
+004000210125     A                                      CF03(03 'Exit Program')
+004100210126     A                                 16 27'R I S K  A S S E S S M E N T'
+004200210126     A                                 18  6'Age'
+004300210126     A                                 18 12'Fatality Rate'
+004400210126     A                                 18 32'Vacination Recomendation'
+004500210126     A                                 18 64'Total Queries:'
+004600210126     A            AGE            3  0O 20  6EDTCDE(1)
+004700210126     A            FRATE          5  3O 20 14EDTCDE(1)
+004800210126     A                                 20 22'%'
+004900210126     A            TOTALQ         3  0  20 69EDTCDE(1)
+005000210126     A            COHORT         9   O 20 42DSPATR(RI)
+005100210126     A                                 20 34'Cohort:'
+005200210126     A                                 24  9'F1 - Cohort Information'
+005300210126     A                                 24 36'F3 - Exit'
+005400000000
